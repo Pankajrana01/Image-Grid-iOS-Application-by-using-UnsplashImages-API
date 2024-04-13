@@ -22,8 +22,17 @@ To install and run the application, follow these steps:
 
 - Upon launching the application, images from the Unsplash API will be displayed in a scrollable grid.
 - Scroll down to load more images through pagination.
-- Tap on an image to view it in full screen.
+- Asynchronous Image Loading: Images are fetched asynchronously to keep the interface responsive.
+- Efficient Grid Layout: Images are displayed in a performance-optimized grid layout.
+- Caching Mechanisms: Local caching is used for quick retrieval and reduced network usage.
+- Error Handling: The app gracefully manages network errors and image loading failures.
 
+## Technical Details
+
+- Implementation: Utilizes async/await in Swift for asynchronous loading.
+- Layout Optimization: Employs collection views for efficient image display.
+- Caching Strategy: Uses CoreData or third-party libraries for image caching.
+- Error Handling: Handles URLSession errors and provides user-friendly error messages.
 
 ## Contributing
 
@@ -37,4 +46,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-This project is licensed under the [Developer-PankajRana,+91-8196834546].
+This project decloper by [PankajRana,+91-8196834546].
