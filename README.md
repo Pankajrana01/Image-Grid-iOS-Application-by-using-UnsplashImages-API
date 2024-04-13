@@ -1,5 +1,5 @@
 # Image Grid iOS Application by using UnsplashImages API
-![alt text](https://i.imgur.com/F0JEHwe.png))
+![alt text](https://i.imgur.com/F0JEHwe.png)
 This iOS application is designed to efficiently load and display images in a scrollable grid using the Unsplash API. It implements asynchronous image loading, caching mechanisms, error handling, and pagination to ensure smooth performance and user experience.
 
 ## Features
